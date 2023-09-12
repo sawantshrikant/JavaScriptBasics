@@ -1,0 +1,13 @@
+ a function is a reusable block of code that performs a specific task or set of tasks.
+ Functions allow you to write logic, group related code, and make your code more organized and maintainable.
+ A JavaScript function is defined with the function keyword, followed by a name, followed by parentheses ().
+ he code to be executed, by the function, is placed inside curly brackets: {}
+ Function Expressions variable  used as an argument to other functions.
+ A function expression in JavaScript is a way to define a function as part of an expression.
+
+
+ Synchronous Execution 
+ tasks are executed sequentially, one after another, in the order they appear in the code. Each task must complete before the next one starts.
+
+ Asynchronous Execution
+ tasks are executed concurrently, and the program doesn't wait for a task to finish before moving on to the next one. Asynchronous operations are typically used for tasks that may take some time to complete
