@@ -1,0 +1,11 @@
+synchronous code, tasks are done one at a time, and each task must finish before the next one starts. 
+It's like doing one thing after another, and you wait for each task to complete before moving on to the next.
+
+Asynchronous
+
+In asynchronous code, tasks can happen simultaneously, and you don't have to wait for one to finish before starting another. 
+It's like doing multiple things at once or setting things to happen in the background.
+
+most asynchronous JavaScript operations with two primary triggers-
+1)Browser API/Web API
+2)Promises
