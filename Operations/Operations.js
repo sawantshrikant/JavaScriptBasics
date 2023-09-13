@@ -18,7 +18,7 @@ function add(a, b) {
 function Print(){
     console.log('shrikant')
 }
-setTimeout(Print, 2000)
+setTimeout(Print)
 
 function PrintMe(){
     console.log("BridgeLabz")

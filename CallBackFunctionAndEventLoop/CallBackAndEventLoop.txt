@@ -1,0 +1,19 @@
+CallBack Function
+A callback function is a function that is passed as an argument to another function
+ and is intended to be executed after the completion of that function.
+
+ EventLoop
+
+ The event loop is a continuously running process that checks two things:
+
+a. Call Stack: It checks if the call stack is empty. If the call stack is empty, 
+   it means there are no functions currently executing, and the event loop can proceed.
+
+b. Callback Queue: It checks if there are any functions (callbacks) in the callback queue waiting to be executed.
+
+If the call stack is empty and there are callbacks in the queue, the event loop takes the first callback from the queue
+ and pushes it onto the call stack, where it will be executed. This process continues indefinitely.
+
+This mechanism allows JavaScript to perform asynchronous operations without blocking the main execution thread.
+ When an asynchronous operation is completed, its callback is placed in the queue, and 
+ the event loop ensures it gets executed when the call stack is empty.

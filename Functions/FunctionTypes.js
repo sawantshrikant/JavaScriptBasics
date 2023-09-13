@@ -22,3 +22,9 @@ const SumOf2Numbers = function(a, b) {
 const result = SumOf2Numbers(5, 3); 
 console.log(result);
 
+//anonymous function
+const add = function (a, b) {
+  return a + b;
+};
+
+

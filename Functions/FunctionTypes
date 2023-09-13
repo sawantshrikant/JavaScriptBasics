@@ -11,3 +11,6 @@
 
  Asynchronous Execution
  tasks are executed concurrently, and the program doesn't wait for a task to finish before moving on to the next one. Asynchronous operations are typically used for tasks that may take some time to complete
+
+ anonymous function
+ An anonymous function is a function that does not have an identifier (name) associated with it. Instead, it is typically defined within an expression or passed as an argument to another function.
