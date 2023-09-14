@@ -1,0 +1,5 @@
+promises are a way to handle asynchronous operations. 
+They represent a value that may not be available yet but will be resolved in the future, either successfully (resolved) or unsuccessfully (rejected).
+ Promises provide a cleaner and more organized way to work with asynchronous code compared to callbacks.
+ making it easier to work with code that doesn't necessarily execute sequentially.
+  Promises have three possible states: pending, fulfilled, and rejected.
