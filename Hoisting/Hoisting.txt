@@ -1,0 +1,7 @@
+Hoisting is a behavior in JavaScript where variable and function declarations are moved to the top of their containing scope
+ during the compilation phase, before the code is executed. 
+ 
+priority queue
+ A priority queue is a data structure that stores a collection of elements, each of which has an associated priority.
+  The primary purpose of a priority queue is to efficiently retrieve and remove elements from the collection in order of their priority.
+   Elements with higher priority should be removed and processed before elements with lower priority.

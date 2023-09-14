@@ -1,0 +1,10 @@
+ES6
+ECMAScript 2015 was the second major revision to JavaScript.
+
+ECMAScript 2015 is also known as ES6 and ECMAScript 6.
+
+Modules - 
+Modules in JavaScript provide a way to organize and encapsulate code into separate files, making your codebase
+ more modular, maintainable, and reusable.
+ ES6 introduced a module system, allowing you to import and export functions,
+  variables, and objects between different JavaScript files.

@@ -1,22 +1,22 @@
-// //Creating a Promise
-// const MyPromise = new Promise((resolve, reject) => {
+//Creating a Promise
+const MyPromise = new Promise((resolve, reject) => {
     
-//     if (success) {
-//       resolve(result); 
-//     } else {
-//       reject(error); 
-//     }
-//   });
+    if (success) {
+      resolve(result); 
+    } else {
+      reject(error); 
+    }
+  });
   
-//  // Handling a Promise
-//  myPromise
-//   .then((result) => {
+ // Handling a Promise
+ myPromise
+  .then((result) => {
     
-//   })
-//   .catch((error) => {
+  })
+  .catch((error) => {
     
-//   });
-//code
+  });
+code
   const myPromise = new Promise((resolve, reject) => {
    
     setTimeout(() => {
@@ -29,7 +29,7 @@
     }, 2000);
   });
   
-  // Using the promise
+  
   myPromise
     .then((result) => {
       console.log(result); 
