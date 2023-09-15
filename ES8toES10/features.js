@@ -25,3 +25,17 @@ const person = {
 
 const values = Object.values(person);
 console.log("My Output :",values)
+
+//Object.entries() 
+const details = {
+    studentid : 1121,
+    place : 'Mumbai',
+    state : 'MH',
+};
+const entries = Object.entries(details);
+console.log("My output :",entries)
+
+//Object.keys()
+const keys = Object.keys(details);
+console.log("My output for keys :",keys)
+
