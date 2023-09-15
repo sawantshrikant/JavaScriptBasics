@@ -1,9 +1,9 @@
 //Variable Hoisting
-console.log(myVariable); // undefined
+console.log(myVariable); 
 var myVariable = 10;
 
 //Function Hoisting
-sayHello(); // "Hello, World!"
+sayHello(); // 
 
 function sayHello() {
   console.log("Hello, World!");
