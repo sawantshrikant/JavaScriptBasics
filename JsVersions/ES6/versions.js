@@ -38,7 +38,8 @@ console.log(message);
     lastName : "Gurav",
     age:30
   };
-
+  
+console.log("First name of person :",person.firstName);
   
   const {firstName,lastName, age: personAge} = person;
 
