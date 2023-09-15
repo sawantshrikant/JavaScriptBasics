@@ -63,5 +63,19 @@ const fruit3 = ["Banana", "Orange", "Apple", "Mango", "Kiwi"];
 fruits.copyWithin(2, 0, 2);
 console.log(fruit3);
 
+//every()
+//used to test whether all elements in an array pass a specific condition (predicate).
+// It returns true if all elements meet the condition; otherwise, it returns false. 
+//Check if all values in ages[] are over 18
+const ages = [32, 33, 16, 40];
+
+ages.every(checkAge)
+
+function checkAge(age) {
+  return age > 18;
+}
+checkAge();
+console.log(ages);
+
 
 
