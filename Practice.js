@@ -60,5 +60,20 @@ isPrime(11)
       }
       
       console.log(reverseString("Hello, World!")); 
+
+
+//swaping two numbers
+let a = 5;
+let b = 6;
+
+
+let temp;
+
+temp = a;
+a = b;
+b = temp;
+
+console.log(`The value of after swaping: ${a}`);
+console.log(`The value of second variable: ${b}`);
       
 
