@@ -1,0 +1,15 @@
+
+
+ 
+
+ 
+let  MyNum = [1,2,3,4,5];
+
+let sum = 0;
+
+for (i = 0; i < MyNum.length; i++ ){
+  sum += MyNum[i]
+
+ 
+};
+console.log (sum);

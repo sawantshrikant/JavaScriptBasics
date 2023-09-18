@@ -38,7 +38,8 @@ console.log(message);
     lastName : "Gurav",
     age:30
   };
-
+  
+console.log("First name of person :",person.firstName);
   
   const {firstName,lastName, age: personAge} = person;
 
@@ -56,3 +57,27 @@ console.log(message);
   console.log(FirstColor);
   console.log(SecondColor);
   console.log(ThirdColor);
+
+  //spread operator
+
+  //Spreading Array Elements copy element
+
+const originaLArray = [1, 2, 3]
+const NewArray = [...originaLArray, 4, 5]
+
+console.log(NewArray);
+
+//Merging Arrays
+const Array1 = [1,2];
+const Array2 = [3,4];
+const mergedArray = [...Array1,...Array2];
+console.log(mergedArray);
+
+// Spreading Object Properties
+const originalObject = {name : "John",age :30};
+const CopyObject = {...originalObject , city : "NewYork"};
+
+console.log(CopyObject);
+
+//Function Arguments
+
