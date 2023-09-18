@@ -68,13 +68,17 @@ console.log(fruit3);
 // It returns true if all elements meet the condition; otherwise, it returns false. 
 //Check if all values in ages[] are over 18
 const ages = [32, 33, 16, 40];
+<<<<<<< HEAD
 const allAgeAbove18 = ages.every(checkAge);
+=======
+>>>>>>> b2d88b1cec0061ee38920b1208123aba0a5d85ce
 
 ages.every(checkAge)
 
 function checkAge(age) {
   return age > 18;
 }
+<<<<<<< HEAD
 
 console.log(allAgeAbove18);
 
@@ -173,6 +177,10 @@ Person1.sayHello();
 Person2.sayHello();
 
 
+=======
+checkAge();
+console.log(ages);
+>>>>>>> b2d88b1cec0061ee38920b1208123aba0a5d85ce
 
 
 

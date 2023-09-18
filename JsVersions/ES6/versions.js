@@ -2,12 +2,12 @@
 //Modules
 //2 FILES math.js and main js
 
-// import { add , pi } from "./Math"
+import { add , pi } from "./Math"
 
-// const result  = add (5,3)
-// console.log('The Sum is ${result}')
+const result  = add (5,3)
+console.log('The Sum is ${result}')
 
-// console.log('The value of Pi is approximately ${pi}');
+console.log('The value of Pi is approximately ${pi}');
 
 
 //Default parameters
@@ -74,8 +74,13 @@ const mergedArray = [...Array1,...Array2];
 console.log(mergedArray);
 
 // Spreading Object Properties
+<<<<<<< HEAD
 const originalObject = {name : "John",age :30};
 const CopyObject = {...originalObject , city : "NewYork"};
+=======
+const originalObject = {name : "Ganesh",age :30};
+const CopyObject = {...originalObject , city : "Mumbai"};
+>>>>>>> b2d88b1cec0061ee38920b1208123aba0a5d85ce
 
 console.log(CopyObject);
 
