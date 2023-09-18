@@ -350,6 +350,34 @@ Architect1.unshift("BV DOSHI");
 console.log("using unshift to add arcchitect name at beginning : ");
 console.log(Architect1);
 
+//valueOf()
+//return same array
+
+const fruits = ["apple", "banana", "cherry"];
+const value = fruits.valueOf();
+
+console.log(value);
+
+
+
+//foreach()
+const numbers502 = [1, 2, 3, 4];
+
+numbers502.forEach(function (number, index) {
+  console.log(`Element at index ${index} is ${number}`);
+});
+
+const numbers503 = [1, 2, 3, 4];
+for (const number of numbers503) {
+  console.log(number);
+}
+
+
+
+
+
+
+
 
 
 
