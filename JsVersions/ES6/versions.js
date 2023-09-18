@@ -74,8 +74,11 @@ const mergedArray = [...Array1,...Array2];
 console.log(mergedArray);
 
 // Spreading Object Properties
-const originalObject = {name : "Ganesh",age :30};
-const CopyObject = {...originalObject , city : "Mumbai"};
+
+const originalObject = {name : "John",age :30};
+const CopyObject = {...originalObject , city : "NewYork"};
+
+
 
 console.log(CopyObject);
 
