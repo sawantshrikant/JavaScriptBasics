@@ -16,6 +16,9 @@ const MyPromise = new Promise((resolve, reject) => {
   .catch((error) => {
     
   });
+
+
+  
 code
   const myPromise = new Promise((resolve, reject) => {
    

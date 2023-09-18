@@ -3,22 +3,27 @@ ECMAScript 2015 was the second major revision to JavaScript.
 
 ECMAScript 2015 is also known as ES6 and ECMAScript 6.
 
-Modules - 
+*Modules - 
 Modules in JavaScript provide a way to organize and encapsulate code into separate files, making your codebase
  more modular, maintainable, and reusable.
  ES6 introduced a module system, allowing you to import and export functions,
   variables, and objects between different JavaScript files.
 
-Default parameters
+ *Default parameters
  Default parameters are a feature introduced that allow you to assign default values to function parameters
   if no value or undefined is passed when the function is called.
 
-  Template strings
+*Template strings
   allow you to create multi-line strings and embed expressions directly inside string literals.
    They use backticks (`) to define the string, and placeholders ${expression} for embedding variables or expressions within the string.
 
-   Structured assignment
+*Structured assignment
     Structured assignment, also known as destructuring assignment,
-      allows you to extract values from objects and arrays into individual variables.
-       This feature provides a convenient way to work with data in a more concise and expressive manner. 
+    allows you to extract values from objects and arrays into individual variables.
+    This feature provides a convenient way to work with data in a more concise and expressive manner.
+
+ spread operator
+ working with arrays and objects in JavaScript.
+  It allows you to spread (or expand) the elements or properties of an array or object into another array or object, 
+  making it easier to copy, merge, or manipulate data
         

@@ -40,7 +40,10 @@ const keys = Object.keys(details);
 console.log("My output for keys :",keys)
 
 
-//Difference between calbacl hell and Promise
+
+
+//Difference between calbacK hell and Promise
+
 
 //callback hell example
 setTimeout(() => {
@@ -53,25 +56,28 @@ setTimeout(() => {
     },1000);
 },2000);
 
-//promise
-// var promise1 = new promise ((resolve , reject) =>{
-//     console.log("Yes promise is resolved");
-//     let obj = {
-//         userId : 12,
-//         comments : 'Code Improve'
-//     }
-//     resolve(obj);
 
-//     reject('something went wrong')
-// })
 
-// promise1
-// .then((value) =>{
-//     console.log(value)
-// })
-// .catch  (err =>{
-//     console.log ("Error is : "+err)
-// });
+promise
+var promise1 = new promise ((resolve , reject) =>{
+    console.log("Yes promise is resolved");
+    let obj = {
+        userId : 12,
+        comments : 'Code Improve'
+    }
+    resolve(obj);
+
+    reject('something went wrong')
+})
+
+promise1
+.then((value) =>{
+    console.log(value)
+})
+.catch  (err =>{
+    console.log ("Error is : "+err)
+});
+
 
 var promise11 = new Promise((resolve, reject) => {
     console.log("promise program example")
@@ -110,4 +116,5 @@ var promise11 = new Promise((resolve, reject) => {
 
 
 
-    
+
+
