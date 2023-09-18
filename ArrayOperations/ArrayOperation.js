@@ -254,6 +254,107 @@ const selectedItems = items.slice(2, 4);
 console.log("After Using Slice Remaing Item :")
 console.log(selectedItems); 
 
+//some()
+// The some() method checks if any array elements pass a test (provided as a callback function).
+
+// The some() method executes the callback function once for each array element.
+
+// The some() method returns true (and stops) if the function returns true for one of the array elements.
+
+// The some() method returns false if the function returns false for all of the array elements.
+
+// The some() method does not execute the function for empty array elements.
+
+// The some() method does not change the original array.
+const number121 = [10,20,30,40,50]
+
+const GreaterNumber = number121.some((number)=> number > 35);
+
+console.log("using some() method to check if number more than 35 preasentin array : ");
+console.log(GreaterNumber);
+
+
+//sort()
+//The sort() sorts the elements of an array.
+
+//The sort() overwrites the original array.
+
+//The sort() sorts the elements as strings in alphabetical and ascending order.
+
+
+const colors = ["red", "green", "blue", "yellow", "orange"];
+
+colors.sort();
+console.log("Alphabetical order of array colors : ")
+console.log(colors);
+
+
+const names123 = ["Abcd", "Abcde", "ABC", "CBA", "ABCDEFG"];
+names123.sort((a,b) => a.length - b.length);
+
+console.log("sort array by custom order : ");
+console.log(names123);
+
+//splice()
+//The splice() method adds and/or removes array elements.
+
+//The splice() method overwrites the original array.
+
+const Architect = ["BV DOSHI","RAJ REVAL", "SANJAY PURI","charles correa"];
+
+const RemovedArchitect = Architect.splice(1,2);
+
+console.log("using splice method :");
+console.log(RemovedArchitect);
+console.log(Architect);
+
+
+const Colors = ["Red", "Green", "Blue","Black"]
+
+Colors.splice(1,0, "yellow","orange");
+
+console.log("usng splice to array to add element : ")
+console.log(Colors);
+
+const animals = ["dog", "cat", "rabbit"];
+const removedAnimal = animals.splice(1, 1, "hamster");
+
+console.log(removedAnimal); 
+console.log(animals); 
+
+//toString()
+//The toString() method returns a string with array values separated by commas.
+
+//The toString() method does not change the original array.
+
+const fruits500 = ["apple", "banana", "cherry"];
+const fruitsString = fruits500.toString();
+
+console.log("Array after using toString method : ")
+console.log(fruitsString); 
+
+const fruits501 = ["apple", "banana", "cherry"];
+const fruitsString1 = fruits501.join(" and ");
+
+console.log("Array after using toString method : ")
+console.log(fruitsString1); 
+
+//unshift()
+//The unshift() method adds new elements to the beginning of an array.
+
+//The unshift() method overwrites the original array.
+
+const Architect1 = ["RAJ REVAL", "SANJAY PURI","charles correa"];
+Architect1.unshift("BV DOSHI");
+
+console.log("using unshift to add arcchitect name at beginning : ");
+console.log(Architect1);
+
+
+
+
+
+
 
 
 
