@@ -367,6 +367,8 @@ numbers502.forEach(function (number, index) {
   console.log(`Element at index ${index} is ${number}`);
 });
 
+
+//for...of
 const numbers503 = [1, 2, 3, 4];
 for (const number of numbers503) {
   console.log(number);
