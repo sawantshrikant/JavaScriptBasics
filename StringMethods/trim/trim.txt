@@ -1,0 +1,7 @@
+used to remove whitespace (spaces, tabs, and newline characters) from both the beginning and end of a string.
+ It does not modify the original string but instead returns a new string with leading and trailing whitespace removed.
+
+
+ The trimStart() method works like trim(), but removes whitespace only from the start of a string.
+
+ The trimEnd() method works like trim(), but removes whitespace only from the end of a string.

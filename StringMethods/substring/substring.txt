@@ -1,0 +1,6 @@
+used to extract a portion of a string starting from a specified index and ending at another specified index (or the end of the string).
+ It returns the extracted substring as a new string without modifying the original string.
+ Here's the basic syntax of the substring() method:
+
+syntax:
+string.substring(startIndex[, endIndex]);

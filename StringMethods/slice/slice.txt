@@ -1,0 +1,18 @@
+slice() extracts a part of a string and returns the extracted part in a new string.
+The method takes 2 parameters: start position, and end position (end not included). 
+
+
+
+substr(start, length)
+
+substr extracts a specified number of characters from a string and returns them as a new string.
+It takes two parameters: start and length.
+start specifies where the extraction begins (inclusive), and length specifies how many characters to extract.
+If length is omitted, it extracts from the starting position to the end of the string.
+
+substring(start, end):
+
+substring is similar to slice but does not accept negative indices.
+It takes two parameters: start and end.
+start specifies where the extraction begins (inclusive), and end specifies where it ends (exclusive).
+If end is omitted, it continues to the end of the string.

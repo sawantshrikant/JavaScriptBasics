@@ -1,0 +1,2 @@
+length
+ This property returns the length (number of characters) of a string.

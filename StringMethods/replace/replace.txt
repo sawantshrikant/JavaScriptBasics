@@ -1,0 +1,2 @@
+used to replace a specified substring or pattern within a string with another substring or value.
+ It doesn't modify the original string but instead returns a new string with the replacements made.

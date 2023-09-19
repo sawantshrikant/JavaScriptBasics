@@ -1,0 +1,3 @@
+That allows you to retrieve the character at a specified index within a string. It returns the character as a string.
+BASIC syntax :
+ string.charAt(index);
