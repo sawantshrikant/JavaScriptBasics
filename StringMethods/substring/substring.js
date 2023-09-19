@@ -15,9 +15,3 @@ const name1 = "sds is a good person";
 const sunstring3 = name1.substring(5,0);
 console.log(sunstring3);
 
-//Using Negative Indices
-//Negative indices count from the end of the string
-
-const line = "sds is a good person";
-const sunstring4 = line.substring(-3);
-console.log(sunstring4);
