@@ -61,7 +61,7 @@
 
 // const fruit3 = ["Banana", "Orange", "Apple", "Mango", "Kiwi"];
 // fruits.copyWithin(2, 0, 2);
-// console.log(fruit3);
+// console.log(fruit3);z
 
 // //every()
 // //used to test whether all elements in an array pass a specific condition (predicate).

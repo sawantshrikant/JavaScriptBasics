@@ -1,0 +1,2 @@
+The padStart() and padEnd() methods are used to pad a string with a specified character or characters until it reaches a desired length.
+ These methods are helpful when you need to format strings to have a specific length, often used in aligning text or formatting data
